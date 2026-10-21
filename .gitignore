@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller
+*.manifest
+*.spec.bak
+
+# 本项目运行时产物
+samples/_*/
+samples/_*.pdf
+samples/**/*.err
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 内部工作目录
+.workbuddy/
+
+# 发布脚本产生的临时文件
+.upload*.json
+.release*.json
+.rel*.json
+.rid.txt
